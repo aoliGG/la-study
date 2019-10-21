@@ -9,11 +9,13 @@
     <script>
  
     var a = prompt('存蓄金额');
-     var c= a.concat(h2)
-      var nstr = c.padEnd(6,'0');
-      console.log(nstr);
-       var h2 = document.getElementById('h2').innerHTML=c
-      
+    var b= a.substr(0,2);
+
+      var p = b.padEnd(6,'0');
+      console.log(p);
+       var h2 = document.getElementById('h2').innerHTML=p
+       
+     
     </script>
 </body>
 </html>
